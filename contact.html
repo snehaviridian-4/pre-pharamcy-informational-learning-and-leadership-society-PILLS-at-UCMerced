@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - PILLS at UC Merced</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-container">
+      <div class="logo">PILLS <span>UC Merced</span></div>
+      <button class="menu-toggle">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear from you</p>
+    </div>
+  </section>
+
+  <!-- Contact Information & Form Section -->
+  <section class="container">
+    <div class="grid grid-2" style="margin-bottom: 3rem;">
+      <!-- Contact Info -->
+      <div>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Contact Information</h2>
+        
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">✉️ Email</h3>
+          <p><a href="mailto:pills@ucmerced.edu" style="color: var(--secondary-color); font-weight: 600;">pills@ucmerced.edu</a></p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">📍 Location</h3>
+          <p>UC Merced<br>Merced, California</p>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--primary-color); margin-bottom: 0.5rem;">⏰ Office Hours</h3>
+          <p>During semester:<br>Check back for updates on office hours</p>
+        </div>
+
+        <div>
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">Why Contact Us?</h3>
+          <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 0.75rem;">• Ask questions about membership</li>
+            <li style="margin-bottom: 0.75rem;">• Learn about upcoming events</li>
+            <li style="margin-bottom: 0.75rem;">• Share your feedback or suggestions</li>
+            <li style="margin-bottom: 0.75rem;">• Collaborate with us</li>
+            <li style="margin-bottom: 0.75rem;">• Submit photos for our gallery</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">Send us a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">-- Select a subject --</option>
+              <option value="membership">Membership Inquiry</option>
+              <option value="events">Events & Activities</option>
+              <option value="mentorship">Mentorship</option>
+              <option value="feedback">Feedback</option>
+              <option value="collaboration">Collaboration</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Response Time Section -->
+  <section style="background: var(--light-bg);">
+    <div class="container text-center">
+      <h2 class="section-title">Response Time</h2>
+      <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;">We typically respond to inquiries within 48 hours during the academic semester. Thank you for reaching out to PILLS!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>PILLS</h3>
+        <p>Pre-Pharmacy Informational Learning and Leadership Society at UC Merced</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: <a href="mailto:pills@ucmerced.edu">pills@ucmerced.edu</a></li>
+          <li>Location: UC Merced</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 PILLS at UC Merced. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
